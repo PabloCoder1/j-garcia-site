@@ -5,6 +5,7 @@ import DeliverySection from "@/components/home/DeliverySection";
 import Testimonials from "@/components/home/Testimonials";
 import BlogPreview from "@/components/home/BlogPreview";
 import ReservationCTA from "@/components/home/ReservationCTA";
+import ContactPage from "./contact/page";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Testimonials />
       <BlogPreview />
       <ReservationCTA />
+      <ContactPage />
     </main>
   );
 }
