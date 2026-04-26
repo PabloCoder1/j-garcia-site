@@ -15,8 +15,22 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "J. Garcia | Restaurante de Frutos do Mar",
-  description: "Experiência e sabor à beira-mar em Santos. Especialidade em frutos do mar.",
+  title: "J. Garcia | Restaurante de Frutos do Mar em Santos",
+  description: "A verdadeira essência dos frutos do mar na Ponta da Praia. Experiência gastronômica inesquecível unindo tradição caiçara e alta culinária.",
+  keywords: ["restaurante santos", "frutos do mar", "ponta da praia", "j garcia", "alta gastronomia", "ostras", "moqueca"],
+  authors: [{ name: "J. Garcia" }],
+  openGraph: {
+    title: "J. Garcia | Alta Gastronomia em Santos",
+    description: "A verdadeira essência dos frutos do mar na Ponta da Praia.",
+    url: "https://jgarcia-santos.vercel.app", // Substitua pelo domínio final depois
+    siteName: "J. Garcia Restaurante",
+    locale: "pt_BR",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
